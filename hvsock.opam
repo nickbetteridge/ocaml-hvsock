@@ -43,3 +43,13 @@ depexts: [
 ]
 
 available: [ ocaml-version >= "4.03.0" ]
+synopsis: "Bindings for Hypervisor sockets"
+description: """
+These bindings allow Host <-> VM communication
+
+ - on Windows with Hyper-V sockets
+ - on Linux with AF_VSOCK
+ - on macOS with VMs running with hyperkit.
+
+Please consult [the API documentation](https://github.com/mirage/ocaml-hvsock).
+"""
