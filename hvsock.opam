@@ -30,8 +30,8 @@ depends: [
   "base64"
   "uuidm"
   "uutf"
-  "mirage-flow-lwt" {>= "1.2.0"}
-  "mirage-time-lwt" {>= "1.0.0"}
+  "mirage-flow" {>= "2.0.1"}
+  "mirage-time" {>= "2.0.1"}
   "cstruct" {>= "2.4.0"}
   "duration"
   "dune" {build}
